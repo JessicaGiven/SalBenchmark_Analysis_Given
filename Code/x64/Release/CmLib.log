@@ -1,5 +1,77 @@
-﻿生成启动时间为 1/2/2016 3:23:11 PM。
+﻿Build started 2016/12/22 21:12:25.
+     1>Project "D:\git\SalBenchmark_Analysis_Given\Code\CmLib\CmLib.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yc"stdafx.h" /Fp"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.pch" /Fo"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\\" /Fd"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Yu"stdafx.h" /Fp"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.pch" /Fo"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\\" /Fd"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Basic\CmCv.cpp Basic\CmDefinition.cpp Basic\CmFile.cpp Cluster\CmAPCluster.cpp Cluster\CmColorQua.cpp Cluster\CmGMM.cpp Illustration\CmEvaluation.cpp Illustration\CmIllu.cpp Illustration\CmShow.cpp OtherAlg\CmCurveEx.cpp Saliency\CmSalCut.cpp Saliency\CmSaliencyGC.cpp Saliency\CmSaliencyRC.cpp "Segmentation\EfficientGraphBased\segment-image.cpp" Segmentation\MeanShift\ms.cpp Segmentation\MeanShift\msImageProcessor.cpp Segmentation\MeanShift\msSys.cpp Segmentation\MeanShift\msSysPrompt.cpp Segmentation\MeanShift\RAList.cpp Segmentation\MeanShift\rlist.cpp
+         CmCv.cpp
+         CmDefinition.cpp
+         CmFile.cpp
+         CmAPCluster.cpp
+         CmColorQua.cpp
+         CmGMM.cpp
+         CmEvaluation.cpp
+         CmIllu.cpp
+         CmShow.cpp
+         CmCurveEx.cpp
+         CmSalCut.cpp
+         CmSaliencyGC.cpp
+         CmSaliencyRC.cpp
+         segment-image.cpp
+         ms.cpp
+         msImageProcessor.cpp
+         msSys.cpp
+         msSysPrompt.cpp
+         RAList.cpp
+         rlist.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\\" /Fd"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Segmentation\PlanarCut\code\CGraph.cpp Segmentation\PlanarCut\code\CutGrid.cpp Segmentation\PlanarCut\code\CutPlanar.cpp Segmentation\PlanarCut\code\CutSegment.cpp Segmentation\PlanarCut\code\CutShape.cpp Segmentation\PlanarCut\code\DynPath.cpp Segmentation\PlanarCut\code\Planar.cpp Segmentation\PlanarCut\code\PlanarException.cpp
+         CGraph.cpp
+         CutGrid.cpp
+         CutPlanar.cpp
+         CutSegment.cpp
+         CutShape.cpp
+         DynPath.cpp
+         Planar.cpp
+         PlanarException.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.lib" /NOLOGO /MACHINE:X64 /LTCG D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmCv.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmDefinition.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmFile.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmAPCluster.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmColorQua.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmGMM.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmEvaluation.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmIllu.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmShow.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmCurveEx.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmSalCut.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmSaliencyGC.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmSaliencyRC.obj
+         "D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\segment-image.obj"
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\ms.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\msImageProcessor.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\msSys.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\msSysPrompt.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\RAList.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\rlist.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CGraph.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CutGrid.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CutPlanar.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CutSegment.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CutShape.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\DynPath.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\Planar.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\PlanarException.obj
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\stdafx.obj
+         CmLib.vcxproj -> D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.lib
+       PostBuildEvent:
+         xcopy /y D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.lib ..\Lib\
+         :VCEnd
+         D:\git\SalBenchmark_Analysis_Given\Code\x64\Release\CmLib.lib
+         复制了 1 个文件
+     1>Done Building Project "D:\git\SalBenchmark_Analysis_Given\Code\CmLib\CmLib.vcxproj" (Build target(s)).
 
-生成成功。
+Build succeeded.
 
-已用时间 00:00:00.01
+Time Elapsed 00:00:36.74
